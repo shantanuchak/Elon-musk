@@ -24,6 +24,18 @@ h1 {
   margin-bottom: 0;
 }
 
+.darkmode--activated p, .darkmode--activated li {
+  color: #fbd1b7;
+}
+
+.button {
+  isolation: isolate;
+}
+
+.darkmode--activated .logo {
+  mix-blend-mode: difference;
+}
+
 h3{
   font-family: 'Boogaloo', cursive;
   font-weight: 100;
