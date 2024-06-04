@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Boogaloo|Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Boogaloo|Quicksand&display=swap");
 
 html {
   font-size: 10px;
@@ -6,25 +6,26 @@ html {
 
 body {
   background-color: #eee;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 1.6rem;
   line-height: 2;
   text-align: center;
-  color: #ggg;
+  color: #eee;
   margin: 0;
-  -webkit-user-select: none;  /* Chrome all / Safari all */
-  -moz-user-select: none;     /* Firefox all */
-  -ms-user-select: none;      /* IE 10+ */
-  user-select: none;          /* Likely future */      
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Likely future */
 }
 
 h1 {
-  font-family: 'Boogaloo', cursive;
+  font-family: "Boogaloo", cursive;
   font-size: 4rem;
   margin-bottom: 0;
 }
 
-.darkmode--activated p, .darkmode--activated li {
+.darkmode--activated p,
+.darkmode--activated li {
   color: #fbd1b7;
 }
 
@@ -36,8 +37,8 @@ h1 {
   mix-blend-mode: difference;
 }
 
-h3{
-  font-family: 'Boogaloo', cursive;
+h3 {
+  font-family: "Boogaloo", cursive;
   font-weight: 100;
 }
 
@@ -57,14 +58,14 @@ a {
 }
 
 a:visited {
-  color: #BD4089;
+  color: #bd4089;
 }
 
 #main {
   margin: 30px 8px;
   padding: 15px;
   border-radius: 5px;
-  background: #FCFFFD;
+  background: #fcfffd;
 }
 
 @media (max-width: 460px) {
@@ -119,7 +120,7 @@ blockquote {
   text-align: left;
 }
 
-cite{
-  font-family: 'Quicksand', sans-serif;
+cite {
+  font-family: "Quicksand", sans-serif;
   font-size: 1.8rem;
 }
